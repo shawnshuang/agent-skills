@@ -5,5 +5,5 @@
   "author": {
     "name": "Shawn Huang"
   },
-  "skills": "./skills/"
+  "skills": "./.agents/skills/"
 }
