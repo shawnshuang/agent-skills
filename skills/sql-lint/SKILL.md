@@ -1,0 +1,13 @@
+---
+name: sql-lint
+---
+
+When writing SQL queries:
+
+- Write queries for Snowflake.
+- Only use schemas for components in the monorepo.
+- Write queries without database names and schema names.
+- Write queries using lowercase for keywords.
+- Use “join” instead of “inner join” if there are no other joins (e.g. outer, cross).
+- Do date math like `current_timestamp - interval ‘1 year’` instead of `dateadd(’year’, -1, current_timestamp)` (the former can be used for both Snowflake and Postgres if needed).
+- When making changes to queries, add comments for what you changed.
