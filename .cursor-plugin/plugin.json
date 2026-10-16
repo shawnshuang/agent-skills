@@ -1,9 +1,0 @@
-{
-  "name": "agent-skills",
-  "displayName": "Agent Skills",
-  "description": "Shawn Huang's personal agent skills.",
-  "author": {
-    "name": "Shawn Huang"
-  },
-  "skills": "./.agents/skills/"
-}
