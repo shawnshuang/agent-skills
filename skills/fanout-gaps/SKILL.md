@@ -9,3 +9,5 @@ You may be given the following:
 - Thing to review (e.g. PR, Hex project with queries for monitoring rollout, PRD)
 - List of objectives
 - List of known or non issues
+
+If given a Hex project, it may not be published. Just check the cells.
