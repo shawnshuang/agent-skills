@@ -2,10 +2,10 @@
 name: fanout-gaps
 ---
 
-Use /fanout skill. Have output of each subagent be (a) yes/no if there are gaps and (b) at most 3 gaps, categorized and ranked by high/medium/low severity. Provide a combined list gaps grouped by severity.
+Use /fanout skill. Have output of each subagent be (a) yes/no if there are gaps and (b) at most 3 gaps, categorized by high/medium/low severity. Provide a combined list of gaps grouped by severity and ordered by how often each gap was mentioned by subagents.
 
-You should be given the following. If not, ask for them.
+You may be given the following:
 
-- PR
-- Description of what PR should accomplish
-- List of known or non issues (optional)
+- Thing to review (e.g. PR, Hex project with queries for monitoring rollout, PRD)
+- List of objectives
+- List of known or non issues
