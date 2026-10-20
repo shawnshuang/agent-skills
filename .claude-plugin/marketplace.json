@@ -1,0 +1,20 @@
+{
+  "name": "shawnshuang-agent-skills",
+  "owner": {
+    "name": "Shawn Huang"
+  },
+  "metadata": {
+    "description": "Shawn Huang's personal agent skills."
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "source": "./",
+      "description": "Shawn Huang's personal agent skills.",
+      "author": {
+        "name": "Shawn Huang"
+      },
+      "strict": false
+    }
+  ]
+}
