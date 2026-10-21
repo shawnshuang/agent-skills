@@ -1,5 +1,5 @@
 ---
-name: sql-lint
+name: lint-sql
 ---
 
 When writing SQL queries:
