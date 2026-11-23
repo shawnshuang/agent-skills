@@ -2,18 +2,21 @@
 name: review-migration
 ---
 
-If adding table, review:
+When adding table, review:
 - Columns (any missing ones, any that should be removed)
 - Types
 - Constraints (e.g. not null)
 - Defaults
 - Indexes
 
-If adding/alterting columns, review:
+When adding/alterting columns, review:
 - Types
 - Constraints (e.g. not null)
 - Defaults
 - Indexes
 
-If adding index:
-- Create large indexes outside of deploy
+When adding index, review:
+- Whether an existing index covers it
+- Order of columns
+- Whether it should be partial
+- If it's safe to create during deploy
