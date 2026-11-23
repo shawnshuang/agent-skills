@@ -14,3 +14,6 @@ If adding/alterting columns, review:
 - Constraints (e.g. not null)
 - Defaults
 - Indexes
+
+If adding index:
+- Create large indexes outside of deploy
