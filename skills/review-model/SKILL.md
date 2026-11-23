@@ -7,4 +7,5 @@ name: review-model
   - Only validate things not already validated by the schema if the error would be surfaced to users
 - State transitions
   - Use timestamps
+- Redacting/encryption
 - Concerns
