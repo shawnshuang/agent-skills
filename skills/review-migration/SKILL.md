@@ -9,7 +9,7 @@ When adding table, review:
 - Defaults
 - Indexes
 
-When adding/alterting columns, review:
+When adding/altering columns, review:
 - Types
 - Constraints (e.g. not null)
 - Defaults
