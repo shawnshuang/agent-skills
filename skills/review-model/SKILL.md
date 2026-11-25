@@ -4,7 +4,7 @@ name: review-model
 
 - Review:
   - Associations
-  - Validations
+  - Validations (e.g. empty string, inclusion, negative/positive)
   - State transitions
   - Redacting/encryption
   - Concerns
